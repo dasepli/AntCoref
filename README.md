@@ -9,8 +9,8 @@
 - 中文零指代消解系统
 - 中文共指消解系统
 - UI
+- 事件指代消解系统
 - 指代消解标注系统
-- 事件抽取系统
 
 ## 参考
 - [Sameer Pradhan](https://cemantix.org/)：OntoNotes构造者
