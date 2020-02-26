@@ -9,6 +9,7 @@
   - 可以按照[此教程](https://blog.csdn.net/shuihupo/article/details/79734462)自动将scripts中的skeleton2conll.py和conll2coreference.py转成python3的形式，或者使用本repo中提供的scripts
   - 注意skeleton.sh最后一个参数是“conll-2012”
   - 注意Windows系统中的“/\“问题
+ - 参考[此文档](https://github.com/yhcc/OntoNotes-5.0-NER)对各个中文文件进行整合，构建训练集、验证集、测试集
 
 
 ## 实现
