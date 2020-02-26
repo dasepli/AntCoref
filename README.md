@@ -3,7 +3,7 @@
 ## 简介
 
 ## 数据准备
-- 按照[此链接](https://github.com/huggingface/neuralcoref/blob/master/neuralcoref/train/training.md#get-the-data)处理数据
+- 按照[此链接](https://github.com/huggingface/neuralcoref/blob/master/neuralcoref/train/training.md#get-the-data)处理数据，注意：
   - LDC的数据可以发邮件加快处理
   - 注意将文件整理到"conll-2012"文件夹里
   - 可以按照[此教程](https://blog.csdn.net/shuihupo/article/details/79734462)自动将scripts中的skeleton2conll.py和conll2coreference.py转成python3的形式，或者使用本repo中提供的scripts
