@@ -3,9 +3,11 @@
 ## 简介
 
 ## 数据准备
-- 从[CoNLL-2012 Shared Task: Data](http://conll.cemantix.org/2012/data.html)下载训练集/验证集/测试集/scripts等文件，并解压
-- 从LDC下载[OntoNotes Release 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)数据集，并解压
-- 按照[此教程](https://blog.csdn.net/shuihupo/article/details/79734462)将scripts中的skeleton2conll.py和conll2coreference.py转成python3的形式，也可手动按照[这里](https://github.com/ontonotes/conll-formatted-ontonotes-5.0/issues/2)进行修改
+- 按照[此链接](https://github.com/huggingface/neuralcoref/blob/master/neuralcoref/train/training.md#get-the-data)处理数据
+  - LDC的数据可以发邮件加快处理
+  - 注意将文件整理到"conll-2012"文件夹里
+  - 可以按照[此教程](https://blog.csdn.net/shuihupo/article/details/79734462)自动将scripts中的skeleton2conll.py和conll2coreference.py转成python3的形式
+  - 注意skeleton.sh最后一个参数是“conll-2012”
 
 
 ## 实现
