@@ -18,7 +18,7 @@
 - 中文指代消解系统
 - 中文零指代消解系统
 - 中文共指消解系统
-- UI
+- UI：[参考](https://github.com/huggingface/neuralcoref)
 - 事件指代消解系统
 - 指代消解标注系统
 
