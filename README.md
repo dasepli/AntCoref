@@ -38,4 +38,5 @@
 - [fastNLP](https://github.com/fastnlp/fastNLP/tree/master/reproduction/coreference_resolution)
 - [Pronoun-Coref @ HKUST-KnowComp](https://github.com/HKUST-KnowComp/Pronoun-Coref)
 - [coreference-resolution @ shayneobrien](https://github.com/shayneobrien/coreference-resolution)：更整洁的代码
+- [AllenNLP coref](https://github.com/allenai/allennlp/blob/master/allennlp/models/coreference_resolution/coref.py#L75)
 
