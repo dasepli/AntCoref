@@ -3,14 +3,17 @@
 ## 简介
 
 ## 数据准备
-- 按照[此链接](https://github.com/huggingface/neuralcoref/blob/master/neuralcoref/train/training.md#get-the-data)处理数据，注意：
-  - LDC的数据可以发邮件加快处理
-  - 注意将文件整理到"conll-2012"文件夹里
-  - 可以按照[此教程](https://blog.csdn.net/shuihupo/article/details/79734462)自动将scripts中的skeleton2conll.py和conll2coreference.py转成python3的形式，或者使用本repo中提供的scripts
-  - 注意skeleton.sh最后一个参数是“conll-2012”
-  - 注意Windows系统中的“/\“问题
- - 参考[此文档](https://github.com/yhcc/OntoNotes-5.0-NER)对各个中文文件进行整合，构建训练集、验证集、测试集（conll格式）
- - 将conll格式转化为coref格式
+- 下载[OntoNotes Release 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)数据集，可以发邮件给官方加快数据集申请
+- 从[Conll-2012 Data](http://conll.cemantix.org/2012/data.html)下载train、test、dev、scripts、scorer等文件并解压，注意根据version将数据集整理到“conll-2012”文件夹里，并将scorer重命名为“scorer”
+- 按照[此教程](https://blog.csdn.net/shuihupo/article/details/79734462)将将scripts中的skeleton2conll.py转化为python3格式（也可以直接使用本repo）中提供的文件）
+- 执行`conll-2012/v3/scripts/skeleton2conll.sh -D path_to_ontonotes_folder/data/ conll-2012`在各个文件中生成conll格式的文件
+- 安装[此教程](https://github.com/huggingface/neuralcoref/blob/master/neuralcoref/train/training.md#get-the-data)将训练集、测试集、验证集进行整合
+- 执行`python3 minimize.py`将conll文件整理成json文件格式
+- 从[此地址](https://pan.baidu.com/s/1tUghuTno5yOvOx4LXA9-wg)（[源地址](https://github.com/Embedding/Chinese-Word-Vectors)）下载预训练的中文词向量，并解压缩
+- 执行`python3 get_char_vocab.py`得到中文字表
+- 执行`filter_embeddings.py`文件得到压缩版本的词向量集
+
+
 
 
 ## 实现
