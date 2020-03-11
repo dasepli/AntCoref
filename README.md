@@ -18,6 +18,7 @@
 - 训练集：1810篇文章
 - 验证集：252篇文章
 - 测试集：218篇文章
+- 其他统计数据：[Modeling Multilingual Unrestricted Coreference in OntoNotes](https://www.aclweb.org/anthology/W12-4501.pdf)
 
 
 
