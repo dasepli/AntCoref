@@ -1,6 +1,7 @@
 # AntCoref
 
 ## 简介
+中文共指消解系统的实现
 
 ## 数据准备
 - 下载[OntoNotes Release 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)数据集，可以发邮件给官方加快数据集申请
@@ -13,6 +14,10 @@
 - 执行`python3 get_char_vocab.py`得到中文字表
 - 执行`filter_embeddings.py`文件得到过滤版本的词向量集
 
+## 数据特征
+- 训练集：1810篇文章
+- 验证集：252篇文章
+- 测试集：218篇文章
 
 
 
