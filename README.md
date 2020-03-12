@@ -10,7 +10,7 @@
 - 执行`conll-2012/v3/scripts/skeleton2conll.sh -D path_to_ontonotes_folder/data/ conll-2012`在各个文件中生成conll格式的文件
 - 安装[此教程](https://github.com/huggingface/neuralcoref/blob/master/neuralcoref/train/training.md#get-the-data)将训练集、测试集、验证集进行整合
 - 执行`python3 minimize.py`将conll文件整理成json文件格式
- - "doc_key"/"sentences"/"speakers"/"constituents"/"constituents"/"clusters"
+ - "doc_key"/"sentences"/"speakers"/"constituents"/"ner"/"clusters"
  - 标注时已经分词
 - 从[此地址](https://pan.baidu.com/s/1tUghuTno5yOvOx4LXA9-wg)（[源地址](https://github.com/Embedding/Chinese-Word-Vectors)）下载预训练的中文词向量，并解压缩
 - 执行`python3 get_char_vocab.py`得到中文字表
