@@ -17,7 +17,7 @@
  - 标注时已经分词
 - 从[此地址](https://pan.baidu.com/s/1tUghuTno5yOvOx4LXA9-wg)（[源地址](https://github.com/Embedding/Chinese-Word-Vectors)）下载预训练的中文词向量，并解压缩
 - 执行`python3 get_char_vocab.py`得到中文字表
-- 执行`filter_embeddings.py`文件得到过滤版本的词向量集
+- 执行`filter_embeddings.py`文件得到过滤版本的词向量集，词向量可以使用64维的：[LINK](https://github.com/clarkkev/deep-coref)
 
 ## 数据特征
 - 训练集：1810篇文章
