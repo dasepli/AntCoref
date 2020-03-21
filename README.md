@@ -3,6 +3,9 @@
 ## 简介
 中文共指消解系统的实现
 
+## 系统与环境
+- 腾讯云Centos系统：2 CPU, 8G Mem（训练时内存占用大约5G）
+
 ## 数据准备
 - 下载[OntoNotes Release 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)数据集，可以发邮件给官方加快数据集申请
 - 从[Conll-2012 Data](http://conll.cemantix.org/2012/data.html)下载train、test、dev、scripts、scorer等文件并解压，注意根据version将数据集整理到“conll-2012”文件夹里，并将scorer重命名为“scorer”
