@@ -49,6 +49,7 @@
 - [End-to-end Neural Coreference Resolution](https://github.com/kentonl/e2e-coref/blob/e2e/setup_training.sh)：数据预处理方式
 - [pytorch-e2e-coref @ YangXuanyue](https://github.com/YangXuanyue/pytorch-e2e-coref)
 - [e2e-coref @ kentonl](https://github.com/kentonl/e2e-coref)
+- [Slides E2E @ kentonl](https://kentonl.com/pub/lhlz-emnlp.2017.slides.pdf)
 - [e2e-coref-old @ tcxdgit](https://github.com/tcxdgit/e2e-coref-old)
 - [fastNLP](https://github.com/fastnlp/fastNLP/tree/master/reproduction/coreference_resolution)
 - [Pronoun-Coref @ HKUST-KnowComp](https://github.com/HKUST-KnowComp/Pronoun-Coref)
