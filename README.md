@@ -26,15 +26,12 @@
 - 其他统计数据：[Modeling Multilingual Unrestricted Coreference in OntoNotes](https://www.aclweb.org/anthology/W12-4501.pdf)
 
 
-
-## 实现进度
-- 2020/3/22：实现Base版本，有占用内存过大，损失函数调整，模型优化，评价指标实现等问题
-
 ## 注意事项
 - 使用python3, pip3
 - 处理了低内存资源文件读入的问题
 - 如果两个mention离得比较远，中间又没有mention桥接怎么办？自动向前考虑？
 - 要记得加入dropout加快训练
+- 指代消解本身有难易程度的问题，需要先把确定性比较高的找出来
 
 ## TODO
 - 中文指代消解系统
