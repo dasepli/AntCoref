@@ -1,10 +1,4 @@
-# AntCoref
-
-## 简介
-中文共指消解系统的实现
-
-## 系统与环境
-- 腾讯云Centos系统：2 CPU, 8G Mem（训练时内存占用大约6.5G）
+# AntCoref: An End2End Chinese Coreference System
 
 ## 数据准备
 - 下载[OntoNotes Release 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)数据集，可以发邮件给官方加快数据集申请
