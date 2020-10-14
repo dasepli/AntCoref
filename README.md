@@ -1,4 +1,5 @@
-# AntCoref: An End2End Chinese Coreference System
+# AntCoref
+> An End2End Chinese Coreference System
 
 ## 数据准备
 - 下载[OntoNotes Release 5.0](https://catalog.ldc.upenn.edu/LDC2013T19)数据集，可以发邮件给官方加快数据集申请
